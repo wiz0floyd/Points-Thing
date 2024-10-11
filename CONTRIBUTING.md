@@ -12,11 +12,10 @@
 
 Along with new features, or working on any issues that appear in this repo's issues tab, we welcome you to simply submit a new message too!
 
-1. Go to the `x_snc_points_thing_messages` table on your instance (see above)
+1. Go to the `x_snc_points_thing_messages` table on your instance.
 2. Submit a new message.
-3. Open the application in App Engine Studio (AES)
-4. Return to the list view. 
-5. Check the checkbox next to the plant record you added in the plant list
-6. Right click on the list header and choose "Create Application Files"
-7. Choose **New install and upgrades** and select OK
-8. Via Studio, commit your changes and open a new Pull Request!
+3. Return to the list view. 
+4. Check the checkbox next to the message record you added in the message list.
+5. Right click on the list header and choose "Create Application Files."
+6. Choose **New install and upgrades** and select OK
+7. Via Studio, commit your changes and open a new Pull Request!
