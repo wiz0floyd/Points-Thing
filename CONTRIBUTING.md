@@ -7,3 +7,16 @@
 - No updates should be made directly to the automatically generated ServiceNow folders. Updates to these files should be done via the [Regular method](README.md#manually) described on the readme.
 - Low effort/spam Pull Requests will be marked as spam accordingly.
 - Filenames should not have special characters that are not allowed on normal file systems (eg. do not put ! in the file name).
+
+## Messages are enough!
+
+Along with new features, or working on any issues that appear in this repo's issues tab, we welcome you to simply submit a new message too!
+
+1. Go to the `x_snc_points_thing_messages` table on your instance (see above)
+2. Submit a new message.
+3. Open the application in App Engine Studio (AES)
+4. Return to the list view. 
+5. Check the checkbox next to the plant record you added in the plant list
+6. Right click on the list header and choose "Create Application Files"
+7. Choose **New install and upgrades** and select OK
+8. Via Studio, commit your changes and open a new Pull Request!
